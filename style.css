@@ -1,0 +1,40 @@
+/*rem viet tat la root em co nghia khi xet don vi la rem gia tri 
+cua thuoc tinh do se tuong doi voi root element*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* width: 200px; */
+    /* height: 500px; */
+    width: 100vw;/*100% kich thuoc theo chieu ngang cua thiet bi*/
+    height: 50vh;/*50% kich thuoc theo chieu cao cua thiet bi*/
+    border: 2px solid black;
+    font-size: 12px;
+}
+
+.block {
+    height: 20px;
+}
+
+.absolute-unit {
+    width: 200px;
+    background-color: yellow;
+    border: 1px solid green;
+}
+
+.percentage-unit {
+    width: 30%;/*chieu rong tuong ung voi 30% cua parent truc tiep cua no chinh la container*/
+    background-color: blue;
+    border: 1px solid green;
+}
+/* .container p{
+    font-size:  2rem;/*root element mac dinh co fontsize la 16px nen luc nay the p co fonsize la 2*16=32*/
+    /* font-size: 2em;kich thuoc cua the p bang 2*font-size cua the cha la container  */
+    /* width: 2em;luc nay width se co kich thuoc bang 2*fon-size cua the p bang 48px */
+    /* background-color: green; */
+/* } */
+
+/* .container p span { */
+    /* font-size: 1.2em; */
+/* } */
